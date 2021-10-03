@@ -1,0 +1,29 @@
+.go .slick-arrow.slick-prev{
+   display: none;
+
+}
+
+.go{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.go .slick-arrow.slick-next{
+    background-image: url(../../../assets/icons/Arrow\ 2.svg);
+    background-repeat: no-repeat;
+    /* justify-content: space-between; */
+    width: 60px;
+    height: 60px;
+    margin-right: 60px;
+}
+
+.slider_todos_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}

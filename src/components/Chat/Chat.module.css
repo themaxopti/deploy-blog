@@ -1,0 +1,96 @@
+@media(max-width:575px){
+    .addButton{
+        margin-top: 5px;
+    }
+    .ababa{
+        width: auto;
+    }
+    div.message_content{
+        margin-top: -40px;
+    }
+}
+
+#idp{
+    width: 40px;
+}
+
+.message_container{
+    max-width: 900px;
+    width: 100%;
+    height: 500px;
+}
+
+.message_content{
+    margin-top: -20px;
+    max-height: 500px;
+    height: 100%;
+    scrollbar-color: #458245 #714826;     /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: auto;
+    overflow: auto;
+}
+
+
+.addButton{
+   outline: none;
+   height: 40px;
+   font-family: Montserrat;
+   border: 1px solid black;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.message_content::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+
+.img_user{
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user_card{
+    margin-top: 40px;   
+    display: flex;
+}
+
+.user_name_and_msg{
+    margin-left: 30px;
+}
+
+.position_card{
+    /* margin-top: -20px; */
+}
+
+.message{
+    margin-top: 10px;
+}
+
+.img_user img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.message_content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #18aaaa;
+}
+
+
+.message_content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
+
+
+.chat_input_user{
+    width: 40px;
+}

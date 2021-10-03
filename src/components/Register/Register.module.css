@@ -1,0 +1,91 @@
+.container_register{
+    max-width: 421px;
+    height: 528px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFEFE;
+    border: 1px solid #CCBDBD;
+    box-sizing: border-box;
+    border-radius: 21px;
+}
+
+.register_content{
+
+}
+
+.name input{
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    margin-top: -153px;
+    padding-left: 10px;
+    width: 310px;
+    height: 68px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C5C1C1;
+}
+
+.name input::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 22px;
+    color: #C5C1C1;
+}
+
+.password input{
+    background: #FFFFFF;
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 310px;
+    margin-top: 53px;   
+    height: 68px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C5C1C1;
+}
+
+
+.password input::placeholder{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 22px;
+    color: #C5C1C1;
+}
+
+.register button{
+    width: 302px;
+    height: 69px;
+    background: #4A4A4A;
+    border-radius: 97px;
+    font-family: Montserrat;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 65px;
+
+
+
+    color: #FFFFFF;
+}

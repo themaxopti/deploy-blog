@@ -1,0 +1,144 @@
+.a{
+
+
+
+
+
+
+
+
+
+}
+
+.comment_form{
+    margin-top: 40px;
+    margin-left: 76px;
+    z-index: 100;
+    position: absolute;
+}
+
+.addButton{
+    width: 90px;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    /* background-color: rgb(24, 23, 23); */
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.textareaComment{
+    outline: none;
+    font-family: Montserrat;
+}
+
+.container{
+    width: 100%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+    min-height: 310px;
+    -webkit-box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    -moz-box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+ .comment{
+    width: 100%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+    min-height: 110px;
+    -webkit-box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    -moz-box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+.post_title{
+    margin-top: 43px;
+}
+
+.stlyled{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    filter:none;
+    line-height: 32px;
+    margin-left: 63px;
+    box-shadow: none;
+    color: #000000;
+}
+
+.stlyled span {
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.post_description{
+    margin-top: 63px;
+}
+
+.user_name{
+    margin-top: 60px;
+}
+
+
+
+.coments_container{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments_all_title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+}
+
+.comment{
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    filter:none;
+    line-height: 32px;
+    box-shadow: none;
+    color: #000000;
+}
+
+.comment span{
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.comment_name{
+    margin-top: 40px;
+}
+
+.comment_email{
+    margin-top: 20px;
+
+}
+
+.comment_body{
+    margin-top: 20px;
+
+}

@@ -1,0 +1,28 @@
+.users_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.show_more{
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    width: 141px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Merienda;
+    font-style: normal;
+    background: #665858;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    margin-right: 1080px;
+    margin-top: 307px;
+    color: #FFFFFF;
+}

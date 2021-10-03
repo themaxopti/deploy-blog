@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@media (max-width: 575px) {
+    .Header_Div_Content{
+        position: fixed;
+    }
+
+    .Header_Div_Content.show_nav{
+        z-index: 10;
+    }
+
+    .Header_Div_Content.adaptive_margin{
+     
+    }
+
+    .blog_with_font{
+        z-index: -1;
+        transform: translateX(-50px);
+    }
+
+    img.showMoreSvg{
+        position: absolute;
+        right: 100px;
+        display: block;
+    }
+    
+    .nav_in_header{
+        position: fixed;
+        justify-content: center;
+        padding-left: 100px;
+        top: -100%;
+        left: 0;
+        visibility: hidden;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .nav_in_header div{
+
+    }
+
+    .navigation_search{
+        left: -72px;
+        /* right: 10px; */
+    }
+    
+    div.margin_top_fake_header{
+        transform: translateY(30px);
+    }
+
+    .postLinkMargin {
+        transform: translateY(20px);
+    }
+
+    .nav_in_header.show_nav{
+        visibility:visible;
+        flex-direction: column;
+        top: 0;
+        background-color: aqua;
+    }
+    
+    .loop_img_fake_adaptive{
+        transform: translateX(110px);
+    }
+
+    .blog_with_font{
+        margin-top: 10px;
+    }
+
+    div.postLinkMargin{
+        margin-left: 0px;
+    }
+
+    div.yes_find_input{
+        width: 500px;
+    }
+}
+
+
+
+
+.Header_Div_Content{
+    z-index: 60;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87px;
+    transition: 1s;
+}
+
+
+.showMoreSvg{
+    /* margin-right: 100px; */
+    z-index: 999;
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.margin_top_fake_header{
+    transform: translateY(0px);
+}
+
+.Header_Div_Content input {
+    max-width: 500px;
+    width: 100%;
+    margin-right: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 40px;
+    font-family: 'Averia Serif Libre', cursive;
+    outline: none;
+}
+
+.find_scroll{
+
+}
+
+.navigation_search{
+    margin-left: 200px;
+     position: relative;
+     z-index: 1000;
+     max-height: 400px;
+     scrollbar-color: #458245 #714826;     
+     scrollbar-width: auto; 
+     overflow: auto;  
+}
+
+.navigation_search::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+
+
+.navigation_search::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgb(31, 28, 28);
+}
+
+
+.navigation_search::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
+
+.yes_find_input{
+    display: flex;
+}
+
+.navigation_search{
+    border-radius: 10px;
+    font-family: 'Merienda', cursive;
+    margin-left: 70px;
+    font-style: normal;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 140px;
+    z-index: 1000;
+    top: 100px;
+    max-width: 1225px;
+    width: 100%;
+    /* min-height: 100px; */
+    border:1px solid black;
+}
+
+.none_find_input{
+    display: none;
+}
+
+.navigation_search div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: white;
+}
+
+
+.navigation_search div span {
+    margin-left: 20px;
+}
+
+.navigation_search div:hover {
+    background-color: rgb(207, 200, 200);
+}
+
+/* 
+.Header_Div_Content img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+} */
+
+.themeColor{
+    color: white;
+}
+
+.postLinkMargin{
+    margin-left: 76px;
+}
+
+.blog_with_font {
+    animation: 0.3s linear 0s normal none running showBlog;
+    font-family: 'Merienda', cursive;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 52px;
+}
+
+a{
+    color: black;
+}
+
+@keyframes showBlog {
+    from {
+        opacity: 0;
+     transform: translate(0px,30px);    
+    }
+
+    to {
+        opacity: 1;
+
+        transform: translate(0px,0px);    
+    }
+}
+
+
+
+.nav_in_header{
+    display: flex;
+    z-index: 300;
+    flex-grow: 1;
+    max-width: 1400px;
+    transition: 0.5s;
+    width: 100%;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: 140px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.bubble_image:hover ~ .settings_image{
+    opacity: 1;
+    z-index: 200;
+}
+
+.img_provider{
+    position: absolute;
+    z-index: -1;
+}
+
+.cl-btn-2 {
+    /* margin: 20px; */
+    transform: translate(14px,8px);
+    display: flex;
+    /* justify-content: center; */
+}
+
+.cl-btn-2 div {
+    cursor: pointer;
+    position: relative;  
+    height: 68px;
+    width: 50px;
+}
+
+.cl-btn-2 .leftright {
+    height: 3px;
+    width: 20px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+}
+.cl-btn-2 .rightleft {
+    height: 3px;
+    width: 20px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all .3s ease-in;
+}
+.cl-btn-2 .close-btn {
+    margin: 54px 0 0 -5px;
+    position: absolute;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    opacity: 0; 
+}
+.cl-btn-2 div:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: white;
+}
+.cl-btn-2 div:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: white;
+}
+.cl-btn-2 div:hover .close-btn {
+    opacity: 1;
+}
+
+

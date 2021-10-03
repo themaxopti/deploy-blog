@@ -1,0 +1,62 @@
+.todo_card{
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+    max-width: 498px;
+    width: 100%;
+    height: 196px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.todo_card_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+
+.tickyDiv{
+    position: relative;
+    margin-left: 45px;
+    margin-top: 60px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.themeColor{
+    color:white;
+}
+
+.tickyDiv img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.todo_title{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 44px;
+    color: #E3D7D7;
+}
+
+.todo_name{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 36px;
+    color: #E3D7D7;
+}
+
+
+.cardImg{
+    width: 30px;
+    height: 30px;
+}

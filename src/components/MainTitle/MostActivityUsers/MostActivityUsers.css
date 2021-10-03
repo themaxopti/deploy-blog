@@ -1,0 +1,54 @@
+.slick-dots li{
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+ul.slick-dots{
+    margin-top: 30px;
+}
+
+.slick-dots li.slick-active{
+    background-color: black;
+}
+
+.slick-arrow::before{
+    opacity: 0;
+}
+
+
+.slick-arrow:hover:before{
+    opacity: 0;
+}
+
+.slick-arrow.slick-prev:before{
+    opacity: 0;
+}
+
+.slick-arrow.slick-next:before{
+    opacity: 0;
+}
+
+.slick-arrow.slick-prev{
+    background-image: url(../../../assets/icons/Arrow\ 1.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    margin-right: 70px;
+
+}
+
+.slick-arrow.slick-next{
+    background-image: url(../../../assets/icons/Arrow\ 2.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-right: 60px;
+}
+
+.slick-dots li button{
+    opacity: 0;
+}

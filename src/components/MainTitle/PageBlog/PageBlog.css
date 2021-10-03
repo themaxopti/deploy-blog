@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+}
+
+.main_Page_Blog_End{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_Page_Blog_End_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    height: 900px;
+    background-color: #494646;
+}
+
+.main_Page_Blog_End_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: white;
+    height: 900px;
+
+    color: #494646;
+}
+
+.blogSpan{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 69px;
+    position: absolute;
+    color: #FFF9F9;
+    
+
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+.container{
+    width: 100%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+    min-height: 310px;
+    -webkit-box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    -moz-box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    box-shadow: 24px 19px 40px -27px rgba(95, 103, 109, 0.6);
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+
+.post_title{
+    display: flex;
+    transition: 1s;
+    margin-top: 43px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.divAnimation{
+
+}
+
+.divAnimation {
+    transition: 1s;
+    animation-name: slideTodo;
+    animation-duration: 1s;
+    transform: translateX(10px);
+}
+
+.post_doneTodo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.post_doneTodo img{
+    width: 150%;
+    height: 150%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.styledText {
+    
+    color: rgb(255, 80, 80);
+    text-decoration: line-through;
+    font-weight: 700;
+    /* font-family: 'Averia Serif Libre', cursive; */
+}
+
+@keyframes slideTodo {
+    from {
+        font-weight: 100;
+        transform: translateX(0px);
+    }
+  
+    to {
+        
+
+        transform: translateX(10px);
+    }
+  }
+
+.stlyled{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    filter:none;
+    line-height: 32px;
+    margin-left: 63px;
+    box-shadow: none;
+    color: #000000;
+}
+
+.stlyled span {
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.post_description{
+    margin-top: 63px;
+}
+
+.user_name{
+    margin-top: 60px;
+}

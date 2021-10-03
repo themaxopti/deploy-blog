@@ -1,0 +1,212 @@
+@media(max-width:575px){
+    div.all_posts_and_todos_main{
+        margin-top: 90px;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+
+    div.all_todos{
+        margin-left: 0px;
+    }
+
+    div.addButton{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .add_post_form{
+        z-index: 100;
+        bottom: 1000px;
+        left: 0px;
+        margin-left: 0px;
+    }
+
+    div.some_information_div{
+        transform: translate(-290px,-200px);
+    }
+
+    div.div_user_photo{
+        transform: translateY(70px);
+    }
+
+    .addPostFormUser{
+        bottom: 240px;
+        margin-left: 1px;
+    }
+}
+
+
+.my{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.label{
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #333;
+    color: #333;
+}
+
+.user_information_div{
+    display: flex;
+    position: relative;
+}
+
+.div_user_photo{
+
+}
+
+.user_name{
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.add_post_form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+
+.add_post_form textarea{
+    margin-top: 10px;
+}
+
+.photo_sircle{
+    position: relative;
+    overflow: hidden;
+    background: #C4C4C4;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.themeColor{
+    color: white;
+}
+
+.photo_sircle img {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: 0;
+    left: 0;
+    transform: translate(-19px,-20px);
+    object-fit: cover;
+}
+
+.some_information_div{
+    display: flex;
+    margin-top: 230px;
+    margin-left: 300px;
+}
+
+.some_email{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.email_title{
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+
+.email{
+    margin-top: 9px;
+}
+
+.some_living{
+    display: flex;
+    margin-left: 50px;
+}
+
+.house_icon{
+
+}
+
+.place_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+
+
+.all_posts_and_todos_main{
+    margin-bottom: 200px;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 200px;
+}
+
+.all_posts{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    height: auto;
+}
+
+.all_posts div {
+    color: white;
+}
+
+.all_todos{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
