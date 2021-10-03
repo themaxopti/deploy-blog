@@ -3,9 +3,9 @@ import config from '../config.json'
 
 const numb = 1
 
-const url = 'http://localhost:4000/api'
+const url = 'https://distracted-noyce-0c68d2.netlify.app/api'
 
-// it is my life1
+// it is my life11
 
 const token = JSON.parse(localStorage.getItem('token') || false)
 
