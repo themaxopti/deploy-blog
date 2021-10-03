@@ -4,7 +4,7 @@ import { changeModal } from '../../redux/header-section-reduser'
 import s from './Register.module.css'
 import { reduxForm, Field } from 'redux-form'
 import { required, email, minLengthCreator, maxLength } from '../../utils/validators/validators'
-
+import config from '../../config.json'
 
 const NameInput = ({ input, meta, ...props  }) => {
     return (
@@ -58,7 +58,7 @@ const Register = (props) => {
     }
 
     async function onSubmit(formValue) {
-        await fetch('http://localhost:4000/api/auth/register', {
+        await fetch(`${config.SERVER_URL}/api/auth/register`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
